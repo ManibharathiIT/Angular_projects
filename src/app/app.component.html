@@ -1,0 +1,50 @@
+
+ <h2>Students Portfolio</h2>
+<div *ngFor="let obj of data" class="container">
+    <div class="sub-container">
+<mat-card class="example-card" appearance="outlined">
+    <mat-card-header>
+      <mat-card-title-group>
+        <mat-card-title>{{obj.name}}</mat-card-title>
+        <img mat-card-lg-image src="{{obj.photo}}" alt="Student" >  
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content class="email">Email: {{obj.contact.email}}</mat-card-content>
+    <mat-card-content class="phone">Phone: {{obj.contact.phone}}</mat-card-content>
+    <mat-card-content class="bio">Bio: {{obj.bio}}</mat-card-content>
+    <mat-card-content class="education">Education: {{obj.education}}</mat-card-content>
+    <mat-card-content class="skills">Skills: {{obj.skills}}</mat-card-content>
+  </mat-card>
+</div></div>
+ 
+<form [formGroup]="form" (ngSubmit)="onSubmit(form)"> 
+    <div class="input-field">
+        <label for="name">Name:</label>
+        <input type="text" id="name" formControlName="name">
+    </div>
+    <div class="input-field">
+        <label for="email">Email:</label>
+        <input type="text" id="email" formControlName="email">
+    </div>
+    <div class="input-field">
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" formControlName="phone">
+    </div>
+    <div class="input-field">
+        <label for="bio">Bio:</label>
+        <input type="text" id="bio" formControlName="bio">
+    </div>
+    <div class="input-field">
+        <label for="education">Education:</label>
+        <input type="text" id="education" formControlName="education">
+    </div>
+    <div class="input-field">
+      <label for="skills">Skills:</label>
+      <input type="text" id="skills" formControlName="skills">
+  </div>
+  <div class="input-field">
+    <label for="photo">Upload Your Photo:</label>
+    <input type="file" id="photo" (change)="uploadPhoto($event)" formControlName="photo">
+</div>
+    <button type="submit">Submit</button>
+        </form>

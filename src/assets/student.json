@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Jane Doe",
+        "photo":"   assets/img-1.jfif",
+        "contact":{
+            "email":"janedoe@example.com",
+            "phone": "+1-123-456-7890"
+        },
+        "bio":"I'm a Computer Science student passionate about web development, problem-solving, and building scalable applications. I'm seeking opportunities to leverage my skills in front-end development and backend APIs while learning new technologies and contributing to meaningful projects.",
+        "education":"B.Tech",
+        "skills":[ "HTML5", "CSS3", "Angular", "Node.js", "Express.js"]
+
+    },
+    {
+        "name": "bharathi",
+        "photo":"assets/img-2.jfif",
+        "contact":{
+            "email":"Manibharathi@example.com",
+            "phone": "+1-3456987094"
+        },
+        "bio":"I'm a Computer Science student passionate about web development, problem-solving, and building scalable applications. I'm seeking opportunities to leverage my skills in front-end development and backend APIs while learning new technologies and contributing to meaningful projects.",
+        "education":"M.Tech",
+        "skills":[ "MySQL", "MongoDB"]
+
+    },
+    {
+        "name": "rajagobal",
+        "photo":"assets/img-3.jfif",
+        "contact":{
+            "email":"rajagobal@example.com",
+            "phone": "+3498563789"
+        },
+        "bio":"I'm a Computer Science student passionate about web development, problem-solving, and building scalable applications. I'm seeking opportunities to leverage my skills in front-end development and backend APIs while learning new technologies and contributing to meaningful projects.",
+        "education":"B.Com",
+        "skills":[ "JavaScript", "Python", "C++", "Java"]
+
+    },        
+    {
+        "name": "ragini",
+        "photo":"assets/img-4.jfif",
+        "contact":{
+            "email":"rakesh@example.com",
+            "phone": "-3456709876"
+        },
+        "bio":"I'm a Computer Science student passionate about web development, problem-solving, and building scalable applications. I'm seeking opportunities to leverage my skills in front-end development and backend APIs while learning new technologies and contributing to meaningful projects.",
+        "education":"phd",
+        "skills":["Git", "GitHub"]
+
+    },
+    {
+        "name": "kamal",
+        "photo":"assets/img-5.jfif",
+        "contact":{
+            "email":"kamal@example.com",
+            "phone": "093663999"
+        },
+        "bio":"I'm a Computer Science student passionate about web development, problem-solving, and building scalable applications. I'm seeking opportunities to leverage my skills in front-end development and backend APIs while learning new technologies and contributing to meaningful projects.",
+        "education":"BE",
+        "skills":[ "Visual Studio Code", "Docker", "Firebase"]
+
+    }
+]
